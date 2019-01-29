@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SparkDev_VR2019.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2145B794-38CD-4A5A-99F9-F264CD5003C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SparkDev_VR2019.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SparkDev_VR2019Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{13E1F811-0928-46F7-A5EB-DB3E8EAE7C0F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SparkDev_VR2019">
+      <UniqueIdentifier>{6EE1AA81-7D3F-450E-A371-DD9D31FA1D31}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SparkDev_VR2019\MyClass.cpp">
+      <Filter>Source\SparkDev_VR2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SparkDev_VR2019\MyClass.h">
+      <Filter>Source\SparkDev_VR2019</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SparkDev_VR2019\SparkDev_VR2019.Build.cs">
+      <Filter>Source\SparkDev_VR2019</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SparkDev_VR2019\SparkDev_VR2019.cpp">
+      <Filter>Source\SparkDev_VR2019</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SparkDev_VR2019\SparkDev_VR2019.h">
+      <Filter>Source\SparkDev_VR2019</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SparkDev_VR2019\Test.h">
+      <Filter>Source\SparkDev_VR2019</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SparkDev_VR2019\Test.cpp">
+      <Filter>Source\SparkDev_VR2019</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
