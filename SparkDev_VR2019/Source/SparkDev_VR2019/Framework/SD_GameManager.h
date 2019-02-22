@@ -16,5 +16,4 @@ UCLASS()
 class SPARKDEV_VR2019_API USD_GameManager : public UGameInstance
 {
 	GENERATED_BODY()
-	
 };
